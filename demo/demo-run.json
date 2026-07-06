@@ -1,0 +1,811 @@
+{
+  "run_id": 1,
+  "context_md": "**Task**: longcot-chess\n**Meta Model**: claude-haiku\n**Task Model**: claude-sonnet\n**Agent impl**: claude\n",
+  "generations": {
+    "1": {
+      "results.json": {
+        "summary": {
+          "accuracy": 0.42,
+          "accuracy_percent": 42.0,
+          "correct": 21,
+          "total": 50
+        },
+        "items": [
+          {
+            "id": "q0",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q1",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q2",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q3",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q4",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q5",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q6",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q7",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q8",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q9",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q10",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q11",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q12",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q13",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q14",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q15",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q16",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q17",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q18",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q19",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q20",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q21",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q22",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q23",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q24",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q25",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q26",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q27",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q28",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q29",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q30",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q31",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q32",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q33",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q34",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q35",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q36",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q37",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q38",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q39",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q40",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q41",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q42",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q43",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q44",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q45",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q46",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q47",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q48",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q49",
+            "status": "WRONG",
+            "output": "a3"
+          }
+        ]
+      },
+      "target_agent.py": "# generation 1\nprint('gen 1')\n# improved retry\n"
+    },
+    "2": {
+      "results.json": {
+        "summary": {
+          "accuracy": 0.58,
+          "accuracy_percent": 57.99999999999999,
+          "correct": 28,
+          "total": 50
+        },
+        "items": [
+          {
+            "id": "q0",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q1",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q2",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q3",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q4",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q5",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q6",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q7",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q8",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q9",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q10",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q11",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q12",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q13",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q14",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q15",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q16",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q17",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q18",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q19",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q20",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q21",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q22",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q23",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q24",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q25",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q26",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q27",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q28",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q29",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q30",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q31",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q32",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q33",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q34",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q35",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q36",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q37",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q38",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q39",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q40",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q41",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q42",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q43",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q44",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q45",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q46",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q47",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q48",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q49",
+            "status": "WRONG",
+            "output": "a3"
+          }
+        ]
+      },
+      "target_agent.py": "# generation 2\nprint('gen 2')\n# improved retry\n# improved retry\n",
+      "transfer_evidence.json": {
+        "accepted_for_reuse": true,
+        "task_specific_residue": [],
+        "unsupported_claims": [],
+        "claim_boundary": "Chess notation tasks only; not general reasoning."
+      },
+      "improvement.md": "# Gen 2\n- Added structured retry for tool failures.\n- Tuned prompt for chess notation.\n"
+    },
+    "3": {
+      "results.json": {
+        "summary": {
+          "accuracy": 0.71,
+          "accuracy_percent": 71.0,
+          "correct": 35,
+          "total": 50
+        },
+        "items": [
+          {
+            "id": "q0",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q1",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q2",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q3",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q4",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q5",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q6",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q7",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q8",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q9",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q10",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q11",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q12",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q13",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q14",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q15",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q16",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q17",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q18",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q19",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q20",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q21",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q22",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q23",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q24",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q25",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q26",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q27",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q28",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q29",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q30",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q31",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q32",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q33",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q34",
+            "status": "CORRECT",
+            "output": "a3"
+          },
+          {
+            "id": "q35",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q36",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q37",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q38",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q39",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q40",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q41",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q42",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q43",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q44",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q45",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q46",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q47",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q48",
+            "status": "WRONG",
+            "output": "a3"
+          },
+          {
+            "id": "q49",
+            "status": "WRONG",
+            "output": "a3"
+          }
+        ]
+      },
+      "target_agent.py": "# generation 3\nprint('gen 3')\n# improved retry\n# improved retry\n# improved retry\n",
+      "transfer_evidence.json": {
+        "accepted_for_reuse": true,
+        "task_specific_residue": [
+          "Hardcoded FEN parser for bundled chess JSON layout"
+        ],
+        "unsupported_claims": [],
+        "claim_boundary": "Chess notation tasks only; not general reasoning."
+      },
+      "improvement.md": "# Gen 3\n- Added structured retry for tool failures.\n- Tuned prompt for chess notation.\n"
+    }
+  }
+}
