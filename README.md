@@ -2,12 +2,14 @@
 
 Reproducible **run receipts** for [SIA](https://github.com/hexo-ai/sia) self-improvement runs — separating **harness gains**, **weight gains**, and **overfit/residue** without re-running evals.
 
-Native product artifact (not a `sia web` clone). Read-only compiler over `runs/run_*` trees.
+**Repo:** https://github.com/Abhishek21g/sia-eval-harness  
+**Demo:** https://enaguthi.com/hexo-sia-eval/site/
 
 ## Install
 
 ```bash
-cd eval-harness
+git clone https://github.com/Abhishek21g/sia-eval-harness.git
+cd sia-eval-harness
 pip install -e ".[dev]"
 ```
 
@@ -21,11 +23,20 @@ sia-eval compile runs/run_1
 # → runs/run_1/receipts/run_1.md
 ```
 
-Custom output directory:
+Try the bundled demo (no SIA run required):
 
 ```bash
-sia-eval compile runs/run_1 -o ./receipts
+sia-eval compile demo/runs/run_1
 ```
+
+## What it is
+
+| Module | Role |
+|--------|------|
+| `cli.py` | `sia-eval compile` entrypoint |
+| `compiler.py` | Walks `runs/run_*`, writes receipt JSON + markdown |
+| `checks.py` | Leak guard, metric delta, harness vs weights detection |
+| `schema.py` | Receipt version + gold-key constants |
 
 ## Receipt fields
 
@@ -42,8 +53,8 @@ sia-eval compile runs/run_1 -o ./receipts
 pytest tests/ -q
 ```
 
-## Positioning
+## Related OSS work
 
-Complements upstream PRs [#36](https://github.com/hexo-ai/sia/pull/36) (leak fix), [#51](https://github.com/hexo-ai/sia/pull/51) (transfer evidence), and [#52](https://github.com/hexo-ai/sia/pull/52) (spaceship evaluator).
+Built alongside contributions to [hexo-ai/sia](https://github.com/hexo-ai/sia): [#36](https://github.com/hexo-ai/sia/pull/36), [#41](https://github.com/hexo-ai/sia/pull/41), [#51](https://github.com/hexo-ai/sia/pull/51), [#52](https://github.com/hexo-ai/sia/pull/52).
 
-Built for [enaguthi.com](https://enaguthi.com) launch + Hexo Labs outreach.
+Built by [Abhishek Enaguthi](https://enaguthi.com).
