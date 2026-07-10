@@ -2,6 +2,9 @@
 
 Reproducible **run receipts** for [SIA](https://github.com/hexo-ai/sia) self-improvement runs — separating **harness gains**, **weight gains**, and **overfit/residue** without re-running evals.
 
+[![CI](https://github.com/Abhishek21g/sia-eval-harness/actions/workflows/ci.yml/badge.svg)](https://github.com/Abhishek21g/sia-eval-harness/actions/workflows/ci.yml)
+[![Live demo](https://img.shields.io/badge/demo-enaguthi.com-2da44e)](https://enaguthi.com/hexo-sia-eval/site/)
+
 **Repo:** https://github.com/Abhishek21g/sia-eval-harness  
 **Demo:** https://enaguthi.com/hexo-sia-eval/site/
 
